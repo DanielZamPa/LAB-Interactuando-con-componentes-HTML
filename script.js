@@ -26,12 +26,18 @@ document.getElementById("voto3").addEventListener("click", function(){
     }
 })
 //-----------------------------------------
-let producto1 = 0;
+let cantidad_productos_carrito = 0;
 let cantidad1 = 0;
 let precio1 = 0;
-let producto2 = 0;
 let cantidad2 = 0;
 let precio2 = 0;
-let producto3 = 0;
 let cantidad3 = 0;
 let precio3 = 0;
+
+function vaciar(){
+    cantidad1 = 0;
+}
+function agregar(){
+    cantidad_productos_carrito +=1;    
+}
+function aliminar(){}
