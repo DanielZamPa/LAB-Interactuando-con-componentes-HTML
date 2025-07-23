@@ -25,3 +25,13 @@ document.getElementById("voto3").addEventListener("click", function(){
         console.log("Cantidad de votos seleccion 3: ",voto3);
     }
 })
+//-----------------------------------------
+let producto1 = 0;
+let cantidad1 = 0;
+let precio1 = 0;
+let producto2 = 0;
+let cantidad2 = 0;
+let precio2 = 0;
+let producto3 = 0;
+let cantidad3 = 0;
+let precio3 = 0;
